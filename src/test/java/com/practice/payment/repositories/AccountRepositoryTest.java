@@ -19,7 +19,7 @@ public class AccountRepositoryTest {
     private AccountRepository accountRepository;
 
     @Test
-    public void testCreateUser(){
+    public void testCreateAccount(){
 
         Account account = new Account();
         account.setUserId(1L);
